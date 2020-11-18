@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.lidongjing.springboot.homework04.StudentAutoConfiguration
