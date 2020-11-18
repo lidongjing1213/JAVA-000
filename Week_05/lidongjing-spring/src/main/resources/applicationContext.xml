@@ -28,8 +28,13 @@
 
     <bean id="school" class="thursday.homework03.School">
         <property name="klass" ref="klass"/>
-        <property name="student" ref="student" />
+        <property name="student" ref="student"/>
     </bean>
 
+    <bean id="customer" class="thursday.homework02.xmlconfig.Customer" autowire="byName"></bean>
+
+    <bean id="address" class="thursday.homework02.xmlconfig.Address">
+        <property name="fullAddress" value="123"/>
+    </bean>
 
 </beans>
